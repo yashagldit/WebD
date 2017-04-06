@@ -1,7 +1,9 @@
 body{
 	font-family: sans-serif;
-	margin: 0px;
+	
+
 	padding: 0px;
+	background-color: #5d9fe2;
 }
 h1{
 	text-align: center;
@@ -60,10 +62,12 @@ a:hover{
 	
 }
 .intro{
-	margin: auto;
-	padding-top:30px;
-	
-	background-color: #eff1f4;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:50px;
+	padding-top:50px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #ffffd4;
 }
 .row{
 	margin: auto;
@@ -104,8 +108,12 @@ a:hover{
 }
 
 .aboutc{
-	background-color: #BBDEFB;
+	background-color: #d3ffdb;
 	margin: auto;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:50px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 10px 0px 50px 0px;
 }
 .about{
@@ -125,7 +133,11 @@ a:hover{
 	margin-bottom: 50px;
 }
 .skillsc{
-	background-color: #EEEEEE;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:50px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #d3fff2;
 	padding: 10px 0px 50px 0px;
 }
 .skills{
@@ -136,19 +148,28 @@ a:hover{
 	
 }
 .socialc{
-	width: 100%;
+	
 	padding: 10px 0px 50px 0px;
 	text-align: center;
-	background-color: yellow;
+	background-color: #d3e6ff;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:50px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .social{
 	text-align: center;
-	margin: auto;
+	
 }
 .quali{
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:50px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: center;
 	padding-bottom: 50px;
 	padding-top: 10px;
+	background-color: #ffdbd3;
 	
 }	
 .quali table{
@@ -158,4 +179,8 @@ a:hover{
 	background-color: #BBDEFB;
 	padding-top: 10px;
 	padding-bottom: 50px;
+	margin-left:100px;
+	margin-right:100px;
+	
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
