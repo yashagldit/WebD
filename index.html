@@ -1,36 +1,39 @@
 <html>
 	<head>
 	
-	<title>Yash Agarwal</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" >
-	<link rel="stylesheet" href="css/style.css" type="text/css" >
-	
+		<title>Yash Agarwal</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" >
+		<script src="js/jquery-2.2.0.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" type="text/css" >
+		<script>
+		function myFunction(){
+			var person=prompt("Please Enter your name","Agarwal");
+			var person1="Hello"+person+"How are you today?";
+		
+			if(person!=null){
+				document.getElementById("hel").innerHTML=person1;
+			}
+		}
+		</script
 	</head>
 	<body>
 	
-		<div class="nav">
-		   <h2>YA</h2>
-		   <ul>
-			<li><a href="index.html">Home</li></a>
-			<li><a href="#about">About</li></a>
-			<li><a href="#skills">My Skills</li></a>
-			<li><a href="#social">Social Links</li></a>
-			<li><a href="#footer">Contact Me</li></a>
-		   </ul>
-		</div>
 		
-		<div class="intro">
+		
+		<div class="intro" >
 			<div class="row">
 				<div class="col-md-3"></div>
 				<div class="col-md-2">
-					<center><img src="img/myimg.jpeg" width="20%" id="ima">
+					<center><img src="img/myimg.jpeg"  id="ima" class="img-responsive">
 				</div>
 				<div class="col-md-4">
+					<div class="ab">
+					<div id="hel">
 					<h1>Yash Agarwal</h1>
 					<h5>Web Developer & Designer</h5></center>
-					<center><a href="#about" style="color:#ffffff;">
-					<!--<div class="button">Know More</div></a></center>-->
-					<center><a href="#about" style="color:#ffffff;"><button type="button" class="btn btn-primary">Know More</button></a></center>
+				
+					<div class="bkn"><center><a href="#about" style="color:#ffffff;"><button type="button" class="btn btn-primary">Know More</button></a></center>
+					</div></div></div>
 				</div>
 			<div class="col-md-3"></div>
 			</div>
@@ -93,8 +96,19 @@
 					<td>80%</td>
 				</tr>
 			</table></center>
-		</div>		
+		</div>
+		
 	</body>
+	<div class="nav">
+		   <h2>YA</h2>
+		   <ul>
+			<li><a href="index.html">Home</li></a>
+			<li><a href="#about">About</li></a>
+			<li><a href="#skills">My Skills</li></a>
+			<li><a href="#social">Social Links</li></a>
+			<li><a href="#footer">Contact Me</li></a>
+		   </ul>
+		</div>
 	<div class="footer" id="footer">
 	  <h3>Contact Me</h3>
 	  <a href="mailto:yashagl9@gmail.com"><h5>Send an Email</h5></a>
